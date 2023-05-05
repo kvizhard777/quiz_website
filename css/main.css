@@ -2,7 +2,6 @@
 @import 'vars.css';
 @import 'scroll.css';
 @import 'style.css';
-@import 'hover.css';
 @import 'media.css';
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
@@ -10,6 +9,10 @@ body {
     color: var(--white-text-color);
     background-color: var(--background-color);
     font-family: 'Manrope', sans-serif;
+}
+
+textarea {
+    resize: none;
 }
 
 .container {
