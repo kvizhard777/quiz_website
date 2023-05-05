@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опрос про информационные технологии</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <!-- MAIN -->
+    <main class="main">
+        <div class="container">
+
+            <!-- LOGO -->
+            <div class="logo">
+                <img src="img/stat.svg" alt="Logo" class="logo__img">
+                <h1 class="logo__text">Опрос про информационные технологии</h1>
+            </div>
+
+            <!-- FORM -->
+            <form onsubmit="return sendTelegram()" class="form" id="main-form">
+
+                <!-- 1 -->
+                <div class="form--wrapper">
+                    <label class="form__label">1. Какие изменения произошли в образовательной сфере с появлением информационных технологий?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 2 -->
+                <div class="form--wrapper">
+                    <label class="form__label">2. Какие преимущества предоставляют информационные технологии в обучении?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 3 -->
+                <div class="form--wrapper">
+                    <label class="form__label">3. Какие недостатки есть в использовании информационных технологий в образовании?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 4 -->
+                <div class="form--wrapper">
+                    <label class="form__label">4. Какие виды информационных технологий используются в образовании?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 5 -->
+                <div class="form--wrapper">
+                    <label class="form__label">5. Какие задачи решаются с помощью информационных технологий в образовании?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 6 -->
+                <div class="form--wrapper">
+                    <label class="form__label">6. Какие проблемы возникают при использовании информационных технологий в образовании?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 7 -->
+                <div class="form--wrapper">
+                    <label class="form__label">7. Какие изменения произошли в процессе обучения с появлением информационных технологий?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 8 -->
+                <div class="form--wrapper">
+                    <label class="form__label">8. Какие новые возможности открываются для учеников благодаря информационным технологиям?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 9 -->
+                <div class="form--wrapper">
+                    <label class="form__label">9. Какие новые методы обучения появились с использованием информационных технологий?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 10 -->
+                <div class="form--wrapper">
+                    <label class="form__label">10. Какие преимущества предоставляют онлайн-курсы и дистанционное обучение?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 11 -->
+                <div class="form--wrapper">
+                    <label class="form__label">11. Какие новые формы оценки знаний появились с использованием информационных технологий?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 12 -->
+                <div class="form--wrapper">
+                    <label class="form__label">12. Какие возможности предоставляют информационные технологии для индивидуального обучения?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 13 -->
+                <div class="form--wrapper">
+                    <label class="form__label">13. Какие новые профессии появились благодаря развитию информационных технологий в образовании?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 14 -->
+                <div class="form--wrapper">
+                    <label class="form__label">14. Какие проблемы возникают при использовании информационных технологий в организации учебного процесса?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 15 -->
+                <div class="form--wrapper">
+                    <label class="form__label">15. Какие новые требования предъявляются к учителям с появлением информационных технологий?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 16 -->
+                <div class="form--wrapper">
+                    <label class="form__label">16. Какие преимущества предоставляют информационные технологии для организации научных исследований?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 17 -->
+                <div class="form--wrapper">
+                    <label class="form__label">17. Какие новые методы исследования появились с использованием информационных технологий?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 18 -->
+                <div class="form--wrapper">
+                    <label class="form__label">18. Какие проблемы возникают при использовании информационных технологий в научных исследованиях?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 19 -->
+                <div class="form--wrapper">
+                    <label class="form__label">19. Какие новые возможности открываются для ученых благодаря информационным технологиям?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- 20 -->
+                <div class="form--wrapper">
+                    <label class="form__label">20. Какие изменения произойдут в образовательной сфере в будущем благодаря развитию информационных технологий?</label>
+                    <textarea rows="8" name="answer" id="form-textarea" class="form__textarea" placeholder="Введите ответ..."></textarea>
+                </div>
+
+                <!-- BUTTON -->
+                <div class="button--wrapper">
+                    <button type="submit" class="form__button">
+                        <p class="form__button-text">Отправить</p>
+                        <img src="img/chevron-right.svg" alt="Right" class="form__button-img">
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </main>
+
+    <!-- JS LINK -->
+    <script src="js/questions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
