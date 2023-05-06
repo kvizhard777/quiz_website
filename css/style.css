@@ -65,3 +65,19 @@
 
     background: linear-gradient(97.38deg, #5E71FF 0%, #4656C7 100%);
 }
+
+/* Complete */
+.complete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    column-gap: 20px;
+
+    font-size: 35px;
+    font-weight: 800;
+}

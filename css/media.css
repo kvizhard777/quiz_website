@@ -1,3 +1,19 @@
+@media screen and (max-width: 1024px) {
+    .complete {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .complete {    
+        font-size: 20px;
+    }
+
+    .complete__img {
+        width: 32px;
+    }
+}
+
 @media screen and (max-width: 760px) {
     .logo__text {
         font-size: 28px;
@@ -14,5 +30,23 @@
     .form__label {
         font-size: 16px;
         font-weight: 600;
+    }
+
+    .complete {    
+        font-size: 18px;
+    }
+
+    .complete__img {
+        width: 24px;
+    }
+}
+
+@media screen and (max-width: 332px) {
+    .complete {    
+        font-size: 14px;
+    }
+
+    .complete__img {
+        width: 22px;
     }
 }
